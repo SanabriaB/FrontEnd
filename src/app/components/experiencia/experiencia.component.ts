@@ -11,11 +11,7 @@ import { TokenService } from 'src/app/service/token.service';
 export class ExperienciaComponent implements OnInit {
   expe: Experiencia[] = [];
 
-  constructor(
-    private sExperiencia: SExperienciaService,
-    private tokenService: TokenService
-  ) {}
-
+  constructor(private sExperiencia: SExperienciaService, private tokenService: TokenService) { }
   isLogged = false;
 
   ngOnInit(): void {
