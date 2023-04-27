@@ -5,16 +5,16 @@
 </div>
 <div class="row">
   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-    <img src="../../../assets/yo.jpeg" id="Fperfil" />
+    <img src="{{persona.img}}" id="Fperfil" />
   </div>
   <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
     <p id="nombre">{{ persona.nombre }} {{ persona.apellido }}</p>
-    <p>Full Stack Developer Jr.</p>
+    <p><strong>Full Stack Developer Jr.</strong></p>
   </div>
   <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 descripcion">
     <span>
       <h1>Acerca de mí</h1>
-      <p><strong>¡Hola! Soy un entusiasta de la programación de 21 años de Frias, Santiago del Estero, Argentina. Me apasiona este mundo y aprender sobre las últimas tendencias en tecnología. Soy nuevo en este mundo, me esfuerzo por mejorar mis habilidades día a día. Mi objetivo es convertirme en un programador destacable y trabajar en proyectos emocionantes que desafíen mi creatividad y habilidades técnicas.</strong></p>
+      <p><strong>{{persona.descripcion}}</strong></p>
     </span>
   </div>
 </div>
